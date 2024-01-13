@@ -7515,7 +7515,7 @@ a.anchor-link {
 <ol>
 <li>Memerlukan langkah-langkah preprocessing yang cukup dalam sebelum diterapkan pada OCR</li>
 </ol>
-<p><img alt="No description has been provided for this image" src="assets/ocr-preprocess.png" width="850"/></p>
+<p><img alt="No description has been provided for this image" src="assets/ocr-preprocess.jpg" width="850"/></p>
 <ol start="2">
 <li>Beberapa sistem OCR terbatas dalam mengenali berbagai bahasa atau karakter khusus.</li>
 </ol>
@@ -7532,7 +7532,7 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h4 id="Introduction-to-%F0%9F%8D%A9-Donut-Model">Introduction to 🍩 Donut Model<a class="anchor-link" href="#Introduction-to-%F0%9F%8D%A9-Donut-Model">¶</a></h4><h4 id="What-is-%F0%9F%8D%A9-Donut-Model?">What is 🍩 Donut Model?<a class="anchor-link" href="#What-is-%F0%9F%8D%A9-Donut-Model?">¶</a></h4><p>Donut adalah model berbasis Transformer yang dirancang untuk tugas pemahaman dokumen yang tidak menggunakan OCR (Optical Character Recognition), menggunakan teknik mengekstrak informasi bermakna dari gambar dokumen yang tidak terstruktur.</p>
 <p>Proses mengubah dokumen gambar menjadi output text/JSON yang dilakukan oleh model Donut melalui beberapa langkah:</p>
-<p><img alt="No description has been provided for this image" src="assets/general-flow-donut.png"/></p>
+<p><img alt="No description has been provided for this image" src="assets/general-flow-donut.jpg"/></p>
 <div class="alert alert-info">
 💡Dalam model Donut, <b>Swin Transformer digunakan untuk ekstraksi fitur dari gambar dokumen secara efektif</b>. Swin Transformer adalah pengembangan Transformer untuk kasus visual/gambar yang mampu menandingi CNN. Kemampuannya untuk memproses informasi secara hierarkis dan memahami konteks global memungkinkan model Donut mengenali dan memahami teks dan layout dokumen dengan lebih akurat, tanpa bergantung pada OCR. 
 </div>
@@ -7587,7 +7587,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>💡 Tak hanya itu, <strong>fakta menarik dari model Donut adalah</strong> bahwa model ini dilatih menggunakan teks dalam berbagai bahasa dengan memanfaatkan SynthDoG. <strong>SynthDoG</strong> adalah sebuah generator dokumen sintetis yang membantu pelatihan model Donut untuk fleksibel dalam berbagai bahasa dan domain.</p>
-<p><img alt="No description has been provided for this image" src="assets/sample_synthdog.png" width="800"/></p>
+<p><img alt="No description has been provided for this image" src="assets/sample_synthdog.jpg" width="800"/></p>
 <p>Dengan menggunakan SynthDoG, <strong>Donut tidak hanya efektif dalam memahami dokumen dalam bahasa Inggris, tetapi juga dalam bahasa lain, memberikan kemampuan pemahaman dokumen yang lebih luas dan serbaguna</strong>.</p>
 </div>
 </div>
@@ -7900,7 +7900,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Document-Information-Extraction-Using-Donut">Document Information Extraction Using Donut<a class="anchor-link" href="#Document-Information-Extraction-Using-Donut">¶</a></h4><p><img alt="No description has been provided for this image" src="assets/general-flow-donut.png"/></p>
+<h4 id="Document-Information-Extraction-Using-Donut">Document Information Extraction Using Donut<a class="anchor-link" href="#Document-Information-Extraction-Using-Donut">¶</a></h4><p><img alt="No description has been provided for this image" src="assets/general-flow-donut.jpg"/></p>
 <p>Untuk melakukan ekstraksi informasi dari dokumen, langkah pertama yang perlu dilakukan adalah menyiapkan gambar-gambar dokumen yang akan dibaca. Oleh karena itu, kita akan mencoba membaca beberapa file invoice yang terdapat pada folder <code>data_input_LBB</code>.</p>
 </div>
 </div>
@@ -8174,7 +8174,7 @@ a.anchor-link {
 <li>Klasifikasi Dokumen</li>
 <li>Pertanyaan dan Jawaban Visual (VQA) pada Dokumen</li>
 </ul>
-<p><img alt="No description has been provided for this image" src="assets/overview-donut.png" width="800"/></p>
+<p><img alt="No description has been provided for this image" src="assets/overview-donut.jpg" width="800"/></p>
 <p>Oleh karena itu, ketika ingin menggunakan model untuk salah satu dari tugas-tugas tersebut, kita perlu menentukan <code>task_prompt</code> agar mengarahkan model Donut untuk fokus pada tugas spesifik yang diinginkan, sehingga output yang dihasilkan dapat lebih relevan dan bermakna sesuai dengan kebutuhan pengguna.</p>
 <p>Selengkapnya dapat di cek di <a href="https://github.com/clovaai/donut">Official Github Donut</a></p>
 </div>
