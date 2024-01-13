@@ -7,4 +7,6 @@ https://viandwi24.medium.com/4-cara-publikasi-halaman-web-di-github-pages-hostin
 Belajar buat showing image di html page:
 https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html
 1. setiap image harus dimasukan ke folder docs
-2. bongkar file html yang mau dipublish, perhatikan link imagenya apakah sudah diarahkan ke folder docs. tambahkan simbol "!" di depan link image, ambil contoh dari LBB DONUT deh.
+2. bongkar file html yang mau dipublish, perhatikan link imagenya apakah sudah diarahkan ke folder docs. 
+diubah link gambarnya jadi "https://github.com/ronniegoei/ronniegoei.github.io/blob/main/docs/ocr-preprocess.jpg?raw=true", 
+ambil contoh dari LBB DONUT deh.
